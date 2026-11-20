@@ -97,6 +97,19 @@ Po pomiarze A = 0: stan natychmiast zapada się do `|00⟩` → B na pewno = 0.
 Po pomiarze A = 1: stan natychmiast zapada się do `|11⟩` → B na pewno = 1.
 
 ---
+### Bramki
+
+- **H (Hadamard)** — tworzy superpozycję stanów kubitu, rozdzielając amplitudę pomiędzy `|0⟩` i `|1⟩`.
+- **Ry (obrót)** — modyfikuje amplitudy kubitu w zależności od zadanego kąta obrotu.
+- **CNOT** — odwraca kubit docelowy, gdy kubit sterujący ma wartość `1`. W projekcie łączy odpowiadające sobie kubity obu kostek.
+- **Collapse (redukcja stanu)** — zeruje amplitudy stanów niezgodnych z wynikiem pomiaru i normalizuje pozostały stan.
+- **Normalizacja** — zapewnia, że suma prawdopodobieństw wszystkich stanów wynosi `1`.
+
+### Splątanie i pomiar
+
+W trybie niezależnym obie kostki przygotowywane są osobno, a pomiar jednej nie wpływa na rozkład prawdopodobieństwa drugiej.
+
+W trybie splątanym trzy bramki CNOT łączą odpowiadające sobie kubity kostek A i B. Pomiar jednej kostki powoduje redukcję wspólnego stanu kwantowego, co może zmienić rozkład prawdopodobieństwa drugiej kostki. Aktualizacja prezentowana jest na wykresach marginalnych oraz w macierzy prawdopodobieństw wspólnych.
 
 ## Wymagania
 
